@@ -14,6 +14,6 @@ public class SimpleTests
     public IEnumerator SimpleUnityTestTools()
     {
         yield return new WaitForFixedUpdate();
-        Assert.IsTrue(false, "Unity Test Failed")
+        Assert.IsTrue(false, "Unity Test Failed");
     }
 }
