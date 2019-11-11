@@ -12,7 +12,7 @@ public class SimpleTests
         Assert.IsTrue(true, "NUnit Test Failed");
     }
 
-    [Test]
+    [UnityTest]
     public IEnumerator SimpleUnityTestTools()
     {
         yield return new WaitForFixedUpdate();
